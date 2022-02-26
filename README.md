@@ -44,6 +44,7 @@ pour choisir un autre nombre de lignes : utiliser ```-n```
 utiliser ```-l```pour ne voir que le nombre de lignes : ```wc -l +nom du fichier```  
 ```grep mot fichier``` extrait les lignes contenant le mot recherché - la 1ère position est donnée par la 2ème colonne  
 ```grep -c mot fichier```nombre de lignes contenant le mot recherché  
+```grep -i mot fichier``` idem sans tenir compte des majuscules ou minuscules  
 ```grep -n mot fichier```numéro de la 1ère ligne contenant le mot recherché  
 ```-v```au lieu de ```-c``` extrait les lignes ne contenant pas le mot recherché  
 ```cut -f 3 fichier``` extrait la 3ème colonne du fichier - possibilité d'en extraire plusieurs en utilisant "," ou "-"  
